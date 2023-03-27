@@ -1,6 +1,6 @@
 # De una lista de números, identifique el que más se repite.
 
-n = int(input("Ingrese longitud de las listas: "))
+n = int(input("Ingrese longitud de la lista: "))
 
 lista = []
 
