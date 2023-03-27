@@ -11,7 +11,7 @@ lista_2 = []
 print("Lista # 1")
 
 for i in range(0, n):
-    elemento_1 = str(input(f"Ingrese el caracter # {i+1} de la primera lista: "))
+    elemento_1 = input(f"Ingrese el caracter # {i+1} de la primera lista: ")
     lista_1.append(elemento_1)
 
 print("Lista # 2")
@@ -29,7 +29,7 @@ while len(lista_2) > limite:
 
     for i in range(0, len(lista_1)):
         if lista_1[posicion] == lista_2[i]:
-             contador_igual += 1
+            contador_igual += 1
 
     posicion += 1
     
